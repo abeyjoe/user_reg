@@ -1,0 +1,152 @@
+/*
+body.bg{
+    background: linear-gradient(rgba(0, 0, 50, 0.5),rgba(0, 0, 50, 0.5)),url(bgimage.jpg); 
+    background-color: blueviolet;
+    background-size: cover;
+    background-position: center;
+    color: #fff !important;
+}
+*/
+body{
+    background-color: #add8e6 !important;
+}
+/*
+.header{
+    width: 100%;
+    background-color: #fff;
+    color: black;
+}
+*/
+ul li a{
+    color: #fff;
+}
+.visesc{
+    margin: 100px !important;
+}
+.container{
+    background-color: ;
+}
+.login-box{
+    max-width: 700px;
+    float: none;
+    margin: auto;
+    background-color: #45cee0 !important;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #800080 !important;
+}
+.row{
+    background-color: ;
+    opacity: ;
+}
+/*
+.login-left{
+    background: rgba(211, 211, 211, 0.5);
+    background: navy;
+    padding: 30px;
+}
+*/
+/*
+.login-right{
+    background: #fff;
+    padding: 30px;
+}*/
+.form-control{
+    background: transparent !important;
+}
+a{
+    color: #fff !important;
+    margin-top: -200px;    
+}
+/* Login, Signup and Home page Header <h1> padding */
+/* 
+h1.intro{
+    color: #fff !important;
+    margin-top: 200px !important;
+    text-align: center;
+    text-transform: uppercase;
+}
+*/
+/* Logbook, Displaylogbook page Header <h1> padding */
+h1{
+    color: black !important;
+    /* margin-top: 100px !important;*/
+    text-align: center;
+    text-transform: uppercase;
+}
+/* Logbook Section*/
+table{
+    color: black;
+    border: 1px solid black !important;
+}
+/* Header Section */
+.header {
+    width: 100%;
+    height: auto;
+    background-color: purple;
+    position: fixed;
+    top: 0;
+}
+.logo {
+    float: left;    
+}
+img {
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    margin-left: 100px;
+}
+.nav {
+    float: right;
+    width: 70%;
+    min-width: 600px;
+}
+.link {
+    background-color: none;
+    color: white;
+    float: left;
+    margin-left: 20%;
+}
+li {
+    font-size: 14px;
+    display: inline-block;
+    float: left;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+    padding-bottom: 12px;    
+}
+li.home {
+    border-bottom: 2px solid white;
+}
+li.home:hover {
+    border-bottom: 2px solid white;
+}
+/*
+a.active{
+    border-bottom: 2px solid white;
+}
+*/
+/* Beginning of Width of operation button */
+.operation-button-width{
+    width: 200px;
+}
+/* End of Width of operation button */
+button.login {
+    background-color: none;
+    color: white;
+    float: left;
+    margin-left: 20%;
+}
+div.button{
+    float: end;
+}
+a {
+   text-decoration: none;
+}
+/*
+div.profilepicture{
+height: 200px;
+width: 200px;
+border-radius: 200ox;
+}
+*/

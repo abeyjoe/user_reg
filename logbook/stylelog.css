@@ -1,0 +1,18 @@
+body{
+    background-color: #fff !important;
+    color: black !important;
+}
+h1{
+    color: black !important;
+}
+input {
+    color: black !important;
+    background-color: ;
+}
+textarea {
+    color: black !important;
+    background-color: ;
+}
+.operation{
+    width: auto;
+}
