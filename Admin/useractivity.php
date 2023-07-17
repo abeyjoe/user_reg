@@ -58,7 +58,7 @@ if(!isset($_SESSION['username'])){
         <button class="btn btn-primary my-5">Fill Logbook</button>
     </a>
 -->
-    <h2>Users Available</h2><hr>
+    <h2>Users Activities</h2><hr>
     <table class="table text-dark table-striped">
         <thead>
             <tr>
@@ -115,5 +115,10 @@ if(!isset($_SESSION['username'])){
     </table>
 </div>
 
+<br><br><br><br><br><br><br><br><br>
+<footer>
+    <marquee behavior="horizontal" direction="horizontal">The Polytechnic Ibadan sango ibadan...  Vocational Skill Enterpreneurship Scheme (VSESC)</marquee><br><br><br>
+    <center><p> Developed By Adedapo Abiodun Copyright @2022 </p></center>
+</footer>
 </body>
 </html>

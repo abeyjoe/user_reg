@@ -79,7 +79,7 @@ if(isset($_POST['submit'])){
         <form method="post">
 
         <!-- Heading -->
-        <center><h1> FILE LOGBOOK </h1></center>
+        <center><h1> FILL LOGBOOK </h1></center>
 
             <!-- Begining Week Selection -->
             <div class="mb-3">
@@ -132,10 +132,12 @@ if(isset($_POST['submit'])){
             </div>
 
             <!-- Image upload section -->
+            <!--
             <div class="mb-3">
                 <label>Upload Image Illustration</label>
                 <input type="file" class="form-control" name="image" title="choose an image">
             </div>
+            -->
 
             <!-- Upload date section -->
             <div class="mb-3">
@@ -149,5 +151,10 @@ if(isset($_POST['submit'])){
         </form>
     </div>
 
+<footer>
+    <marquee behavior="horizontal" direction="horizontal">The Polytechnic Ibadan sango ibadan...  Vocational Skill Enterpreneurship Scheme (VSESC)</marquee><br><br><br>
+    <center><p> Developed By Adedapo Abiodun Copyright @2022 </p></center>
+</footer>
+    
   </body>
 </html>

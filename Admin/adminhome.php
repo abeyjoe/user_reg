@@ -49,21 +49,33 @@ if(!isset($_SESSION['username'])){
         <a class="float-right" href="../logout.php"> LOGOUT </a>
     <!-- End of Header & Navigation Bar -->
         <!-- Echo user name -->
-        <h1 class="intro p-5 m-5">Welcome <?php echo $_SESSION['username']; ?> </h1>
+        <h1 class="intro p-5 m-5">Welcome <?php echo $_SESSION['username']; ?> <i>Admin!</i></h1>
     <div>
-    <br><br>
     
     <!-- SOME BRIEF INTRODUNTION TO THE WEBSITE HERE -->
+    <div>
+            <!-- SOME BRIEF INTRODUNTION TO THE WEBSITE HERE -->
+            <div class="container">
+                <h2>ABOUT US</h2>
+                <p>The Centre was established in compliance with the Federal Government's initiative through NBT Ethat all tertiary institutions in Nigeria must establish Entrepreneurship Development Centres (EDC) to solve graduatesunemployment crises by ensuring that they acquire functional entrepreneurial skills, desirable work habit in addition to their formal education which will enable them to be self-reliant, self-employed and productive members of the society. To this end, Vocational Skills and Entrepreneurship Study Centre (VSESC) was resuscitated by the school management in June2008 after the extinction of the old Vocational Skills Improvement Unit (VSIU) to serve as community service and revenue generating outfit. This is a double barrel conception viz: skill acquisition programme and entrepreneurship development of graduates of this institution. In fact, Vocational Skills and Entrepreneurship Study Centre (VSESC) is to ensure that all graduates of the Polytechnic, Ibadan are practically sound in at least one vocational/entrepreneurial skill before graduation so that they can be self-reliant, self-employed and employer of labour rather than job seekers. The blue print establishing the Centre has the following vision, mission, specific objective and basic policies:</p>
 
+                <h2>Our Vision</h2>
+                <p>Develop skills, which facilitate professional and technical progress of every individual in his or her professional calling or career. Enhance the job skills of all graduates of The Polytechnic, Ibadan, as a means to self-employment, self-sustaining, and self-sufficiency.</p>
 
-
+                <h2>Our Mission</h2>
+                <p>The Centre shall take all measures to promote employment, develop employment, develop vocational skills and that workers and students alike shall undertake, update and upgrade their vocational, avocational skills, competencies and proficiencies.</p>
+        
+            </div>
 
     <!-- GET STARTED BUTTON -->
-    <!--
-        <a href="useractivity.php"><button type="submit" class="btn btn-primary" name="submit"> View Students Logbook </button></a>
-    -->
+    <a href="user.php"><button type="submit" class="btn btn-primary" name="submit"> View All Users </button></a>
+
         </div>
     </div>
-    
+<br><br><br>
+<footer>
+    <marquee behavior="horizontal" direction="horizontal">The Polytechnic Ibadan sango ibadan...  Vocational Skill Enterpreneurship Scheme (VSESC)</marquee><br><br><br>
+    <center><p> Developed By Adedapo Abiodun Copyright @2022 </p></center>
+</footer>
 </body>
 </html>

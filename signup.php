@@ -15,7 +15,7 @@
     <!-- bootstrap icon & font -->  
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"/>
     
-    <title>E-Logbook</title>    
+    <title>E-Logbook</title>
 </head>
 <body class="text-dark">
 <!-- Biginning of Header & Navigation Bar -->
@@ -46,7 +46,7 @@
     <div class="login-box p-5">
         <div class="row">
 
-            <!-- Begining of Registration Section -->
+            <!-- Beginning of Registration Section -->
             <!-- <div class="col-md-6 login-right m-auto"> -->
                 <center><h2>Register Here </h2></center>
                 <!-- Registration Form -->
@@ -105,14 +105,26 @@
                             <option selected disabled value="">Select...</option>
                             <option value="Computer Science">Computer Science</option>
                             <option value="SLT">SLT</option>
+                            <option value="URP">URP</option>
+                            <option value="LIS">LIS</option>
                             <option value="Geology">Geology</option>
-                            <option value="Survey">Survey</option>
+                            <option value="Maths & Statistics">Maths & Statistics</option>
+                            <option value="Micro Biology">Micro Biology</option>
+                            <option value="Biochemistry">Biochemistry</option>
+                            <option value="Physics">Physics</option>
+                            <option value="Electrical Engineering">Electrical Engineering</option>
+                            <option value="Mechanical Engineering">Mechanical Engineering</option>
+                            <option value="Civil Engineering">Civil Engineering</option>
+                            <option value="Mechatronics">Mechatronics</option>
+                            <option value="Quantity Survey">Quantity Survey</option>
                             <option value="Marketing">Marketing</option>
                             <option value="Public Admin">Public Admin</option>
-                            <option value="Micro Biology">Micro Biology</option>
+                            <option value="Business Admin">Business Admin</option>                            
                             <option value="Art and Design">Art and Design</option>
                             <option value="Accountancy">Accountancy</option>
                             <option value="Banking and Finance">Banking and Finance</option>
+                            <option value="OTM">OTM</option>
+                            <option value="Local Govenment">Local Govenment</option>
                         </select>
                     </div>
                     <!--LEVEL-->
@@ -146,18 +158,24 @@
                     <label for="validationDefault04" class="form-label">Trade</label>
                     <select name="trade" class="form-select" id="validationDefault04" required>
                         <option selected disabled value="">Select...</option>
-                        <option value="Web Design">Web Design</option>
+                        <option value="Web Design and Software Development">Web Design and Software Development</option>
                         <option value="Garment Making">Garment Making</option>
+                        <option value="Beading Works">Beading Works</option>
                         <option value="Cusmetology">Cusmetology</option>
                         <option value="Leather Works">Leather Works</option>
                         <option value="Electrical Instalation">Electrical Instalation</option>
-                        <option value="Brick Laying">Brick Laying</option>
+                        <option value="GSM Repairs and Servicing">GSM Repairs and Servicing</option>
+                        <option value="Household Product">Household Product</option>
+                        <option value="Brick/Block Moulding and Concreting">Brick/Block Moulding and Concreting</option>
+                        <option value="Modern Car Repairs and Servicing">Modern Car Repairs and Servicing</option>
                         <option value="Tie and Die">Tie and Die</option>
-                        <option value="Baking">Baking</option>
+                        <option value="Catering and Confectionaries">Catering and Confectionaries</option>
                         <option value="Pure Water Factory">Pure Water Factory</option>
-                        <option value="Solar Installation">Solar Installation</option>
+                        <option value="Renewable Energy and Solar/inverter System">Renewable Energy and Solar/inverter System</option>
+                        <option value="Textile Technology">Textile Technology</option>
                         <option value="Berbering">Berbering</option>
                         <option value="Fishery">Fishery</option>
+                        <option value="Transportation and Logistics">Transportation and Logistics</option>
                     </select>
                 </div>
                 <!--STUDENTSHIP-->
@@ -210,6 +228,9 @@
 </div>
 <!-- End of Header & Navigation Bar -->
 
-
+<footer>
+    <marquee behavior="horizontal" direction="horizontal">The Polytechnic Ibadan sango ibadan...  Vocational Skill Enterpreneurship Scheme (VSESC)</marquee><br><br><br>
+    <center><p> Developed By Adedapo Abiodun Copyright @2022 </p></center>
+</footer>
 </body>
 </html>

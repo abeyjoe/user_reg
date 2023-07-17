@@ -52,12 +52,12 @@ if(isset($_POST['submit'])){
     <!-- Online Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- offline bootstrap CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="../css/bootstrap.css" rel="stylesheet">
     <!-- bootstrap icon & font --> 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"/>
     <title>E-Logbook</title>    
 </head>
-<body>
+<body class="bg-light">
     <!-- Biginning of Header & Navigation Bar -->
     <div class="header">
 		<div class="logo">
@@ -138,10 +138,12 @@ if(isset($_POST['submit'])){
             </div>
             
             <!-- Image upload section -->
+            <!--
             <div class="mb-3">
                 <label>Upload Image Illustration</label>
                 <input type="file" class="form-control text-light" name="image" title="choose an image">
             </div>
+            -->
             
             <!-- Upload date section -->
             <div class="mb-3">
@@ -155,5 +157,9 @@ if(isset($_POST['submit'])){
         </form>
     </div>
 
+<footer>
+    <marquee behavior="horizontal" direction="horizontal">The Polytechnic Ibadan sango ibadan...  Vocational Skill Enterpreneurship Scheme (VSESC)</marquee><br><br><br>
+    <center><p> Developed By Adedapo Abiodun Copyright @2022 </p></center>
+</footer>
   </body>
 </html>

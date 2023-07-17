@@ -44,7 +44,8 @@
 	</div>
     <!-- End of Header & Navigation Bar -->
 
-    <center><h1 class="intro"> VSESC E-LOGBOOK </h1></center>
+    <br><br><br><br><br>
+    <center><h1 class="intro"> VSESC E-LOGBOOK </h1></center><br>
     <center><h3 class="intro"> ADMIN LOGIN PAGE </h3></center>
 
     <!-- Beginning of Login & Registration Form -->
@@ -76,5 +77,10 @@
     </div><!-- End of Login & Registration Form -->
 </div><!-- End of Header & Navigation Bar -->
 
+<br><br><br><br><br><br><br><br><br><br>
+<footer>
+    <marquee behavior="horizontal" direction="horizontal">The Polytechnic Ibadan sango ibadan...  Vocational Skill Enterpreneurship Scheme (VSESC)</marquee><br><br><br>
+    <center><p> Developed By Adedapo Abiodun Copyright @2022 </p></center>
+</footer>
 </body>
 </html>

@@ -134,13 +134,16 @@ if(!isset($_SESSION['username'])){
                 </tr>';
                 }            
             }
-        ?>
-
-        
+        ?>        
 
         </tbody>
     </table>
 </div>
 
+<br><br><br><br><br><br><br><br>
+<footer>
+    <marquee behavior="horizontal" direction="horizontal">The Polytechnic Ibadan sango ibadan...  Vocational Skill Enterpreneurship Scheme (VSESC)</marquee><br><br><br>
+    <center><p> Developed By Adedapo Abiodun Copyright @2022 </p></center>
+</footer>
 </body>
 </html>

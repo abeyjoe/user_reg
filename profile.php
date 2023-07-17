@@ -1,6 +1,5 @@
 <?php
 include 'logbook/connect.php';
-
 session_start();
 if(!isset($_SESSION['username'])){
     header('location:login.php');
@@ -25,7 +24,7 @@ if(!isset($_SESSION['username'])){
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"/>
     <title>E-Logbook</title>    
 </head>
-<body>
+<body class="bg-light text-dark">
     <!-- Biginning of Header & Navigation Bar -->
     <div class="header">
 		<div class="logo">
@@ -62,59 +61,59 @@ if(!isset($_SESSION['username'])){
     $sql="Select * from usertable where name='$user' ";
     $result=mysqli_query($con,$sql);
     if($result){
-        while($row=mysqli_fetch_assoc($result)){
-            
+        while($row=mysqli_fetch_assoc($result)){            
             $surname=$row['surname'];            
             $lastName=$row['lastName'];
-
             $name=$row['name'];
-
             $matricNumber=$row['matricNumber'];
             $gender=$row['gender'];
             $program=$row['program'];
             $department=$row['department'];
-
             $level=$row['level'];
             $phoneNumber=$row['phoneNumber'];
             $email=$row['email'];
 
-            $picture=$row['picture'];
+            $image=$row['picture'];
 
             $trade=$row['trade'];
             $studentship=$row['studentship'];
             $semester=$row['semester'];
             $session=$row['session'];
-
-
-            echo '<div>
             
-            <h4>Full Name: '.$surname.' '.$lastName.' <span><i>(@'.$name.'  )</i></span></h4>
-            <h4>Username: @'.$name.' </h4>
-            <h4>Matric No: '.$matricNumber.'</h4>
-            <h4>Gender: '.$gender.'</h4>
-            <h4>Program: '.$program.'</h4>
-            <h4>Department: '.$department.'</h4>
-            <h4>Level: '.$level.'</h4>
-            <h4>Phone Number: '.$phoneNumber.'</h4>
-            <h4>Email Address: '.$email.'</h4>
+            //Image Div Container
+            echo'<div class="profile-picture">
+                    <img src="uploads/'.$image.'" alt="Profile Picture" id="profile">
+                </div>';
 
-
-            <img src="uploads"<?php echo $picture ?>" alt="Profile Picture">
-            <img src="uploads/<?php echo $group[$i]['picture'] ?>" alt="Group image">
+            //Profile Details Div Container
+            echo '<div class="container">
+                <div class="container">
+                
+                    <p>Full Name: '.$surname.' '.$lastName.' <span><i>(@'.$name.')</i></span></p>
+                    <p>Username: @'.$name.' </p>
+                    <p>Matric No: '.$matricNumber.'</p>
+                    <p>Gender: '.$gender.'</p>
+                    <p>Program: '.$program.'</p>
+                    <p>Department: '.$department.'</p>
+                    <p>Level: '.$level.'</p>
+                    <p>Phone Number: '.$phoneNumber.'</p>
+                    <p>Email Address: '.$email.'</p>            
+                    <p>Trade: '.$trade.'</p>
+                    <p>Studentship: '.$studentship.'</p>
+                    <p>Semester: '.$semester.'</p>
+                    <p>Session: '.$session.'</p>
             
-            
-            <div class="profilepicture">Profile Picture: '.$picture.'</div>
-
-            <h4>Trade: '.$trade.'</h4>
-            <h4>Studentship: '.$studentship.'</h4>
-            <h4>Semester: '.$semester.'</h4>
-            <h4>Session: '.$session.'</h4>
-        
+                </div>
             </div>';
+            
             }            
         }
     ?>
     </div>
 
+    <footer>
+        <marquee behavior="horizontal" direction="horizontal">The Polytechnic Ibadan sango ibadan...  Vocational Skill Enterpreneurship Scheme (VSESC)</marquee><br><br><br>
+        <center><p> Developed By Adedapo Abiodun Copyright @2022 </p></center>
+    </footer>
 </body>
 </html>

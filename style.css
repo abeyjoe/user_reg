@@ -9,6 +9,7 @@ body.bg{
 */
 body{
     background-color: #add8e6 !important;
+    font-family: cursive;
 }
 /*
 .header{
@@ -143,10 +144,19 @@ div.button{
 a {
    text-decoration: none;
 }
-/*
-div.profilepicture{
-height: 200px;
-width: 200px;
-border-radius: 200ox;
+
+img#profile {
+    height: 150px;
+    width: 150px;
+    border: 1px solid transparent;
+    border-radius: 150px;
+    border: 1px solid black;
 }
-*/
+
+footer{
+    background-color: ;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}

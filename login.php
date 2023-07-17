@@ -67,5 +67,10 @@
     </div><!-- End of Login & Registration Form -->
 </div><!-- End of Header & Navigation Bar -->
 
+<br><br><br><br><br><br>
+<footer>
+    <marquee behavior="horizontal" direction="horizontal">The Polytechnic Ibadan sango ibadan...  Vocational Skill Enterpreneurship Scheme (VSESC)</marquee><br><br><br>
+    <center><p> Developed By Adedapo Abiodun Copyright @2022 </p></center>
+</footer>
 </body>
 </html>
